@@ -1,0 +1,264 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%
+  position: relative;
+  background-color: #f5fbfa;
+　 color: #595959;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* 全てのh1 */
+
+h1 {
+  color: #f5fbfa;
+  font-size: 90px;
+  font-family: 'Playball', cursive;
+  text-align: center;
+  height: 320px;
+  padding-top: 120px;
+}
+
+/* h2のclass title */
+
+.title {
+  font-size: 30px;
+  color: #595959;
+  border-left: 10px solid #68a9cf;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+/* headerはここ */
+
+header {
+  background-image: url(img/sky.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1300px;
+  height: 400px;
+  padding-top: 30px;
+}
+
+/* navはここ */
+
+nav {
+  background-color: #68a9cf;/* 背景色を指定する */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav a {
+  color: #f5fbfa;
+  font-family: 'Lora', serif;
+  text-decoration: none;/* 文字の装飾を指定する */
+}
+
+nav a:hover {
+  color: #ffcc11;
+}
+
+ul {
+  list-style-type: none;/* リストのマーカーを指定する */
+  padding-left: 0;
+  font-size: 20px;
+}
+
+nav ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+/* sectionのclass shop */
+
+.name {
+/*  background-color: #ffffdd;*/
+  padding: 30px;
+  margin: 10px 100px;
+}
+
+.name p {
+  font-size: 20px;
+  background-color: #f5fbfa;
+  color: #595959;
+  padding: 8px 50px;
+  height: 250px;
+  line-height: 40px;
+}
+
+.name img {
+  float: right;
+}
+
+/* sectionのclass photo */
+
+.pet {
+  padding: 30px;
+  margin: 10px 100px;
+}
+
+/*
+.pet h2 {
+  color: #ffffff;
+  border-color: #ffcc11;
+}
+*/
+
+.pet p {
+/*  clear: left;*/
+/*  margin: 20px;*/
+  font-size: 18px;
+  background-color: #f5fbfa;
+  color: #595959;
+  padding: 8px 50px;
+  height: 50px;
+  line-height: 40px;
+}
+
+.big {
+  background-color: #ffffff;
+  width: 470px;/* 幅を指定する */
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px #595959;/* 影を指定する */
+  float: left;
+  transform: rotate(-5deg);/* 要素の回転を指定する */
+}
+
+.dog {
+  background-color: #ffffff;
+  width: 180px;
+  height: 180px;
+  padding: 13px;
+  margin: 13px;
+  box-shadow: 5px 5px 5px #595959;
+  float: left;
+}
+
+/*
+.box {
+  float: left;
+}
+*/
+
+.hobby{
+    padding: 30px;
+    margin: 10px 100px;
+}
+
+.hobby p{
+    font-size: 18px;
+    background-color: #f5fbfa;
+    color: #595959;
+    padding: 10px 50px;
+    height: 50px;
+}
+
+.travel{
+    width: 280px;
+    height: 210px;
+    padding: 15px;
+    margin: 15px;
+    float: left;
+}
+
+.contact {
+  background: #f5fbfa;
+  color: #595959;
+  padding: 30px;
+  height: 400px;
+  margin: 10px 100px;
+}
+
+.contact h3 {
+  font-size: 50px;
+  font-family: 'Lora', serif;
+  margin-top: 0;
+}
+
+.contact div {
+  width: 100%;
+  text-align: center;
+}
+
+a.sns{
+    padding: 20px;
+    margin: 20px;
+}
+a.fb{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    padding: 10px 32px;
+    background: #3b5998;
+    color: #f9f9f9;
+    border: 1px solid #3b5998;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: "Lora", serif;
+    position: relative;
+}
+
+a.fb:hover{
+    background: #f9f9f9;
+    color: #3b5998;
+}
+
+a.ig{
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 10px 29px;
+    background: #d93177;
+    color: #f9f9f9;
+    border: 1px solid #d93177;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: "Lora", serif;
+    position: relative;
+}
+
+a.ig:hover{
+    background: #f9f9f9;
+    color: #d93177;
+}
+
+a.top{
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background: #68a9cf;
+    color: #f9f9f9;
+    border: 1px solid #68a9cf;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: "Lora", serif;
+    position: relative;
+}
+
+a.top:hover{
+    background: #f9f9f9;
+    color: #68a9cf;
+}
+
+footer {
+  text-align: center;
+  color: #f5fbfa;
+  background: #68a9cf;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Lora", serif;
+}
