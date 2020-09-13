@@ -12,8 +12,6 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-/* 全てのh1 */
-
 h1 {
   color: #f5fbfa;
   font-size: 90px;
@@ -23,8 +21,6 @@ h1 {
   padding-top: 120px;
 }
 
-/* h2のclass title */
-
 .title {
   font-size: 30px;
   color: #595959;
@@ -32,8 +28,6 @@ h1 {
   padding-left: 15px;
   margin-bottom: 50px;
 }
-
-/* headerはここ */
 
 header {
   background-image: url(img/sky.jpeg);
@@ -44,10 +38,8 @@ header {
   padding-top: 30px;
 }
 
-/* navはここ */
-
 nav {
-  background-color: #68a9cf;/* 背景色を指定する */
+  background-color: #68a9cf;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -55,7 +47,7 @@ nav {
 nav a {
   color: #f5fbfa;
   font-family: 'Lora', serif;
-  text-decoration: none;/* 文字の装飾を指定する */
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -63,7 +55,7 @@ nav a:hover {
 }
 
 ul {
-  list-style-type: none;/* リストのマーカーを指定する */
+  list-style-type: none;
   padding-left: 0;
   font-size: 20px;
 }
@@ -79,10 +71,7 @@ nav li {
   margin-right: 60px;
 }
 
-/* sectionのclass shop */
-
 .name {
-/*  background-color: #ffffdd;*/
   padding: 30px;
   margin: 10px 100px;
 }
@@ -94,45 +83,26 @@ nav li {
   padding: 8px 50px;
   height: 250px;
   line-height: 40px;
+  float: left;
 }
-
-.name img {
-  float: right;
+.name img{
+    margin-left: 150px;
 }
-
-/* sectionのclass photo */
-
 .pet {
   padding: 30px;
   margin: 10px 100px;
 }
 
-/*
-.pet h2 {
-  color: #ffffff;
-  border-color: #ffcc11;
-}
-*/
-
 .pet p {
-/*  clear: left;*/
-/*  margin: 20px;*/
   font-size: 18px;
   background-color: #f5fbfa;
   color: #595959;
   padding: 8px 50px;
   height: 50px;
-  line-height: 40px;
 }
 
-.big {
-  background-color: #ffffff;
-  width: 470px;/* 幅を指定する */
-  padding: 15px;
-  margin: 20px;
-  box-shadow: 10px 10px 5px #595959;/* 影を指定する */
-  float: left;
-  transform: rotate(-5deg);/* 要素の回転を指定する */
+.dogdiv{
+    position: relative;
 }
 
 .dog {
@@ -142,14 +112,7 @@ nav li {
   padding: 13px;
   margin: 13px;
   box-shadow: 5px 5px 5px #595959;
-  float: left;
 }
-
-/*
-.box {
-  float: left;
-}
-*/
 
 .hobby{
     padding: 30px;
@@ -161,22 +124,24 @@ nav li {
     background-color: #f5fbfa;
     color: #595959;
     padding: 10px 50px;
-    height: 50px;
+    height: 100px;
+}
+
+.traveldiv{
+    position: relative;
 }
 
 .travel{
     width: 280px;
     height: 210px;
-    padding: 15px;
-    margin: 15px;
-    float: left;
+    padding: 10px;
+    margin: 10px;
 }
 
 .contact {
   background: #f5fbfa;
   color: #595959;
   padding: 30px;
-  height: 400px;
   margin: 10px 100px;
 }
 
@@ -191,19 +156,23 @@ nav li {
   text-align: center;
 }
 
-a.sns{
+.sns{
     padding: 20px;
     margin: 20px;
+    display: flex;
+    justify-content: center;
 }
+
 a.fb{
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 10px;
     font-size: 16px;
     padding: 10px 32px;
     background: #3b5998;
     color: #f9f9f9;
     border: 1px solid #3b5998;
-    border-radius: 5px;
+    border-radius: 20px;
     text-decoration: none;
     transition: 0.5s;
     font-family: "Lora", serif;
@@ -222,7 +191,7 @@ a.ig{
     background: #d93177;
     color: #f9f9f9;
     border: 1px solid #d93177;
-    border-radius: 5px;
+    border-radius: 20px;
     text-decoration: none;
     transition: 0.5s;
     font-family: "Lora", serif;
